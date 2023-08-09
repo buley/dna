@@ -1,23 +1,47 @@
-# Project Installation
-```
+# DNA 
+
+## Project Installation
+
+To get started with DNA, follow the installation steps:
+
+\```bash
 npm install -g ganache-cli truffle
 npm i
 npm run tests
+\```
 
-```
+## Project Commands
 
-# Project Commands
+For efficient development and interaction with the project, we have provided several NPM commands:
 
-Here's a breakdown of NPM commands:
+- **test**: Executes Truffle tests.
+  \```bash
+  npm run test
+  \```
 
-* "test": "truffle test": Executes Truffle tests.
-* "compile": "truffle compile": Compiles the smart contracts.
-* "migrate": "truffle migrate --network development": Deploys the smart contracts to the development network.
-* "deploy": "truffle deploy --network development": An alias for migration; deploys the smart contracts.
-* "ganache": "ganache-cli -d": Starts Ganache with deterministic addresses.
-* "start": "truffle develop": Starts the Truffle development console.
+- **compile**: Compiles the smart contracts.
+  \```bash
+  npm run compile
+  \```
 
-You can run these commands with `npm run <command_name>`. For example, to compile your contracts, use `npm run compile`.
+- **migrate**: Deploys the smart contracts to the development network.
+  \```bash
+  npm run migrate
+  \```
 
-Remember to have ganache-cli running (or Ganache UI) when you try to run commands that interact with it, like testing, migration, etc.
+- **deploy**: An alias for migration; deploys the smart contracts.
+  \```bash
+  npm run deploy
+  \```
 
+- **ganache**: Starts Ganache with deterministic addresses.
+  \```bash
+  npm run ganache
+  \```
+
+- **start**: Starts the Truffle development console.
+  \```bash
+  npm run start
+  \```
+
+Please ensure that you have `ganache-cli` running (or the Ganache UI) when executing commands that need to interact with it, such as testing or migration.
