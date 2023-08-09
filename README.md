@@ -1,17 +1,17 @@
 
 # 1. Set Up Your Development Environment:
 
-## 1.1 Install Node.js and npm:
+### 1.1 Install Node.js and npm:
 
 Ensure you have Node.js and npm installed. If not, you can download and install them from here.
 
-## 1.2 Install Truffle:
+### 1.2 Install Truffle:
 Truffle is a popular development framework for Ethereum. Install it using npm:
 
 ```
 npm install -g truffle
 ```
-2. Initialize a New Truffle Project:
+## 2. Initialize a New Truffle Project:
 ```
 mkdir my_lootbox_project
 cd my_lootbox_project
