@@ -1,5 +1,13 @@
+# Project Installation
+```
+npm i
+npm run tests
+```
 
-# 1. Set Up Your Development Environment:
+# Project Setup
+Here's the steps that were taken to setup this project.
+
+## 1. Set Up Your Development Environment:
 
 ### 1.1 Install Node.js and npm:
 
