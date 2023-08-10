@@ -1,0 +1,25 @@
+{
+  "name": "dna",
+  "version": "1.0.0",
+  "description": "DNA Solidity",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate --network development",
+    "deploy": "truffle deploy --network development",
+    "ganache": "ganache-cli -d",
+    "start": "truffle develop",
+    "lock": "npm i --package-lock-only"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.3",
+    "truffle-assertions": "^0.9.2"
+  }
+}
